@@ -5,7 +5,7 @@ from PIL import Image
 import os
 
 
-model_path = os.path.join(model_directory, "best_model.pkl")
+model_path = os.path.join("best_model.pkl")
 
 # Load the model
 if os.path.exists(model_path):
