@@ -5,8 +5,8 @@ from PIL import Image
 import os
 
 # Definisikan jalur model
-model_path = r"C:\Users\Aldo\Downloads\Introduction to Deep Learning (Praktek)\Introduction to Deep Learning (Praktek)\best_model.pkl"
-
+#model_path = r"C:\Users\Aldo\Downloads\Introduction to Deep Learning (Praktek)\Introduction to Deep Learning (Praktek)\best_model.pkl"
+model_path = 'best_model.pkl'
 # Muat model
 if os.path.exists(model_path):
     try:
